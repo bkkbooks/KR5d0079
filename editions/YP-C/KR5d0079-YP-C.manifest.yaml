@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5d0079/YP-C/v1
+canonical_location: https://kanripo.org/bkk/KR5d0079/YP-C/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 晉真人語錄
+  date: '2015-08-29 02:03:13.695747'
+  source:
+    repository: kanripo
+    path: KR5d0079
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: YP-C
+    label: 【原版道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5d0079_000-YP-C.yaml, hash: 'sha256:91a6e604e5d81c90ad7d7a9712dcb5120eb249c471b8e858a7ca751fd9414ed3'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5d0079_000-YP-C.markers.yaml, hash: 'sha256:7d40aaed9d2a29a6db95ca4b9504bda4adb4ee07e07e26eb4af7392e61b9ad05'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5d0079_YP-C_18maoji-09-0001a
+    span:
+    - body
+    - 0
+    - 3749
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:c951c70066357925ac4ce6bad7371d283e62d85fcc5ba6408c79cd13056e7c2e

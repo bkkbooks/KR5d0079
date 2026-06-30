@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5d0079/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5d0079/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 晉真人語錄
+  date: '2015-08-29 02:03:13.695747'
+  source:
+    repository: kanripo
+    path: KR5d0079
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5d0079_000-HFL.yaml, hash: 'sha256:8c17db9e596af87f497fbfe302a2e9f30f372226d1d1f35fa7d8477620829a0f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5d0079_000-HFL.markers.yaml, hash: 'sha256:8a787a5d37100ab1c864a8bf6882144a04f0bd3f1e0b4d6a71341dcfaeb69113'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5d0079_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2519
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:51281c34c86db8ad564419ccba850fdac7777ccf99fc5c0fc06cd936a8178f7d
